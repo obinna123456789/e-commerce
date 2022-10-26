@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 from flask_mail import Mail, Message
-from config import mail_username, mail_password
+
 
 app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
